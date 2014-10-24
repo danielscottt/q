@@ -84,7 +84,7 @@ func (q *Queue) Empty() bool {
 }
 
 // The wrapper for working the evented queue.
-// Receives on the Event chan, and locks the thread doing work
+// Receives on the Event chan, and locks the thread doing work.
 // The lock is cleared once the queue is empty, allowing the next goroutine
 // which delivers an event to begin working the queue.
 func (q *Queue) Work() {

@@ -2,6 +2,10 @@
 
 An in-memory (bounded, if that's your thing, because it probably should be) queue to use in Go programs.
 
+[![Build Status](https://travis-ci.org/danielscottt/q.svg)](https://travis-ci.org/danielscottt/q)
+
+[![GoDoc](https://godoc.org/github.com/danielscottt/q?status.svg)](https://godoc.org/github.com/danielscottt/q)
+
 ```go
 package main
 
